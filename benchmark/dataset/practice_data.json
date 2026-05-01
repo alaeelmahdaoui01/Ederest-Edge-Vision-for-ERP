@@ -1,0 +1,2158 @@
+{
+  "exported_at": "2026-03-01T17:25:55.742205",
+  "course": {
+    "id": "750add96-4b40-4c36-960c-d80e828581c7",
+    "title": "Comptabilité fournisseur sur SAP (AP)",
+    "description": "Ce cours “Comptabilité Fournisseur sur SAP (AP)” vous apprend les opérations clés du quotidien sur SAP. Vous commencerez par les bases indispensables (compte collectif fournisseur, structure du compte fournisseur et groupes), puis vous passerez à la pratique avec des simulations guidées et des exercices type examen pour comptabiliser une facture (FB60) et un avoir (FB65) et comprendre la différence entre la vue fournisseur et la vue grand livre.\n\nVous apprendrez ensuite à piloter et contrôler les comptes fournisseurs grâce aux reportings (FBL1N, FK10N), à interpréter les statuts d’échéance et le lettrage, et à répondre à des demandes “manager” via des cas concrets. Enfin, le cours couvre la gestion des acomptes (F-48, F-54) et le paiement manuel (F-53), avec quiz courts pour valider vos acquis.",
+    "difficulty": "INTERMEDIATE",
+    "language": "fr",
+    "status": "PUBLISHED"
+  },
+  "practice_sessions": [
+    {
+      "subtask_id": "397c1a34-896f-4a37-9fd0-60f127cf0fa1",
+      "collection_id": null,
+      "title": "New Practice Exercise",
+      "description": "",
+      "language": "en",
+      "type": null,
+      "formation_type": null,
+      "is_completed": false,
+      "required": true,
+      "subtask_count": 0,
+      "total_image_count": 0,
+      "created_at": "2026-02-10T10:03:55.236265+00:00",
+      "updated_at": "2026-02-10T10:03:55.236265+00:00",
+      "id": "12b4bae5-2362-466e-97c3-517f8aec7035",
+      "processing_status": "COMPLETED",
+      "processing_progress": 0,
+      "processing_message": null,
+      "processing_error": null,
+      "total_steps": 0,
+      "processed_steps": 0,
+      "overview": null,
+      "prerequisites": [],
+      "learning_objectives": [],
+      "estimated_duration": 600,
+      "difficulty": "beginner",
+      "target_audience": null,
+      "tags": [],
+      "sections": [],
+      "platform": "Web",
+      "domain": null,
+      "is_multi_page": false,
+      "urls": null,
+      "quality_score": null,
+      "session_metadata": {
+        "source": "manual",
+        "formatVersion": "3.0"
+      },
+      "total_step_count": 11,
+      "completed_step_count": 0,
+      "collections": [
+        {
+          "id": "53013b9c-73f6-46ea-9623-81c32360b0ec",
+          "collection_id": "collection_1767525774023",
+          "required": true,
+          "source_url": "manual/collection_1767525774023",
+          "sequence": 0,
+          "created_at": "2026-02-10T10:03:55.236265+00:00",
+          "updated_at": "2026-02-10T10:03:55.236265+00:00",
+          "title": "Données d'entête",
+          "description": "",
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "6ff6eb46-809b-4ad7-bd77-353ab463da4f",
+              "image_id": "img_1767525774023",
+              "sequence": 0,
+              "image": "images/12b4bae5-2362-466e-97c3-517f8aec7035/53013b9c-73f6-46ea-9623-81c32360b0ec/img_1767525774023.png",
+              "instruction": "Upload a screenshot to get started",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.236265+00:00",
+              "updated_at": "2026-02-10T10:03:55.236265+00:00",
+              "fields": [
+                {
+                  "id": "5fa56e12-7b50-4a4f-925e-e0d6ac1f53e3",
+                  "field_id": "temp_field_1767527020122",
+                  "name": "Vendor",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.534947762648386,
+                    "y": 27.175507373923246,
+                    "width": 14.207881781747005,
+                    "height": 3.7549670640317925
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Le fournisseur est un sous-journal, SAP reliera ensuite l’écriture au compte collectif.",
+                    "description": "Identifie le fournisseur concerné par la facture. SAP enregistrera la dette sur ce fournisseur.",
+                    "instruction": "Entrez le fournisseur SCREENZ.",
+                    "tooltip_pos": "right",
+                    "check_response": true,
+                    "correct_answers": [
+                      "SCREENZ"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "5b528c8e-05eb-419d-9368-440a19314539",
+                  "field_id": "temp_field_1767527078166",
+                  "name": "Invoice Date",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.534947762648386,
+                    "y": 30.93047443795504,
+                    "width": 8.568111914183309,
+                    "height": 3.413606421847081
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Cette date sert souvent de référence documentaire, même si la date de comptabilisation peut être différente.",
+                    "description": "Date de la facture telle qu’elle apparaît sur le document fournisseur.",
+                    "instruction": "Entrez la date 05.01.2026.",
+                    "tooltip_pos": "right",
+                    "check_response": true,
+                    "correct_answers": [
+                      "05.01.2026"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "e64a1e18-4121-4674-af2b-e76a9e448157",
+                  "field_id": "temp_field_1767527127016",
+                  "name": "Reference",
+                  "field_type": "text",
+                  "position": {
+                    "x": 39.15471237682068,
+                    "y": 31.101154759047393,
+                    "width": 13.231767766207133,
+                    "height": 3.2429261007547283
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Une bonne référence facilite les recherches dans les reportings.",
+                    "description": "Identifiant pratique pour retrouver la pièce (numéro facture, code interne, etc.).",
+                    "instruction": "Entrez Ecran-X3.",
+                    "tooltip_pos": "right",
+                    "check_response": true,
+                    "correct_answers": [
+                      "Ecran-X3"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "078b088a-5395-42fa-bc67-2d490bab7594",
+                  "field_id": "temp_field_1767527176298",
+                  "name": "Amount",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.534947762648386,
+                    "y": 42.53673627223512,
+                    "width": 13.231767766207133,
+                    "height": 3.413606421847081
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Ce montant doit correspondre au total de la facture fournisseur.",
+                    "description": "Montant total de la facture à comptabiliser.",
+                    "instruction": "Entrez 5000.",
+                    "tooltip_pos": "right",
+                    "check_response": true,
+                    "correct_answers": [
+                      "5000"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "a38109c9-91fd-4832-824a-7ab158105e8d",
+                  "field_id": "temp_field_1767527240431",
+                  "name": "Text",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.534947762648386,
+                    "y": 50.21735072139105,
+                    "width": 36.224675687812976,
+                    "height": 3.7549670640317925
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Un texte clair = une pièce plus facile à comprendre et à auditer.",
+                    "description": "Texte d’en-tête qui décrit le contexte de la facture (visible dans plusieurs vues et reportings).",
+                    "instruction": "Entrez Commande 01 FX.",
+                    "tooltip_pos": "right",
+                    "check_response": true,
+                    "correct_answers": [
+                      "Commande 01 FX"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                }
+              ]
+            },
+            {
+              "id": "46752bd7-5020-4010-85de-b879856fc2b9",
+              "image_id": "img_1767539303809",
+              "sequence": 1,
+              "image": "images/12b4bae5-2362-466e-97c3-517f8aec7035/53013b9c-73f6-46ea-9623-81c32360b0ec/img_1767539303809.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.236265+00:00",
+              "updated_at": "2026-02-10T10:03:55.236265+00:00",
+              "fields": []
+            }
+          ]
+        },
+        {
+          "id": "f538784a-14b4-4b58-8ab0-d60fc2cd0ceb",
+          "collection_id": "collection_1767540423106",
+          "required": true,
+          "source_url": "manual/collection_1767540423106",
+          "sequence": 1,
+          "created_at": "2026-02-10T10:03:55.236265+00:00",
+          "updated_at": "2026-02-10T10:03:55.236265+00:00",
+          "title": "Ligne comptable",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "6cb37c18-9142-4f4b-859a-d867fbfbe991",
+              "image_id": "img_1767540423106",
+              "sequence": 0,
+              "image": "images/12b4bae5-2362-466e-97c3-517f8aec7035/f538784a-14b4-4b58-8ab0-d60fc2cd0ceb/img_1767540423106.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.236265+00:00",
+              "updated_at": "2026-02-10T10:03:55.236265+00:00",
+              "fields": [
+                {
+                  "id": "1c50ffba-7e71-411c-b652-167dc84d11ab",
+                  "field_id": "temp_field_1767540733995",
+                  "name": "Info",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 52.15815513768196,
+                    "y": 36.904285676187435,
+                    "width": 15.427795993021068,
+                    "height": 9.387417660079471
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Dans FB60, l’en-tête décrit la facture, la contrepartie explique “où” on comptabilise la charge.",
+                    "action": "next",
+                    "label_text": "Compris, passer à la contrepartie",
+                    "description": "Vous venez de compléter l’en-tête du document (fournisseur, date, référence, montant, texte). Maintenant, on passe à la deuxième partie : la contrepartie comptable, ici un compte de charge.",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "ed9aa3f1-9a52-4ee4-ba58-55e5c119d35e",
+                  "field_id": "temp_field_1767540790978",
+                  "name": "GL account",
+                  "field_type": "text",
+                  "position": {
+                    "x": 5.982653843884595,
+                    "y": 76.84348081179827,
+                    "width": 8.415161450738772,
+                    "height": 3.413606421847089
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "6121 est un compte de charge : il reçoit généralement un montant au débit.",
+                    "description": "Compte du grand livre impacté par la charge liée à la facture fournisseur.",
+                    "instruction": "Entrez 6121.",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "6121"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "32d3da1f-1d0e-4959-bef0-1a4e1d771d9e",
+                  "field_id": "temp_field_1767540831029",
+                  "name": "Amount in Doc currency",
+                  "field_type": "text",
+                  "position": {
+                    "x": 28.638857749719747,
+                    "y": 77.01416113289064,
+                    "width": 13.701609028766978,
+                    "height": 3.9256473851241425
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Le total de la contrepartie doit équilibrer le montant fournisseur.",
+                    "description": "Montant imputé sur la ligne de contrepartie (dans la devise du document).",
+                    "instruction": "Entrez 5000.",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "5000"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "07651935-9d24-4341-9842-dcc39539cd31",
+          "collection_id": "collection_1767541016812",
+          "required": true,
+          "source_url": "manual/collection_1767541016812",
+          "sequence": 2,
+          "created_at": "2026-02-10T10:03:55.236265+00:00",
+          "updated_at": "2026-02-10T10:03:55.236265+00:00",
+          "title": "Check Balance",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "35d9fb8a-c58e-409a-a34f-2a9f21042481",
+              "image_id": "img_1767541016812",
+              "sequence": 0,
+              "image": "images/12b4bae5-2362-466e-97c3-517f8aec7035/07651935-9d24-4341-9842-dcc39539cd31/img_1767541016812.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.236265+00:00",
+              "updated_at": "2026-02-10T10:03:55.236265+00:00",
+              "fields": [
+                {
+                  "id": "a184d236-75c6-490e-aeaa-cee96d49470d",
+                  "field_id": "temp_field_1767541196997",
+                  "name": "Vérification – Équilibre Débit / Crédit + Infos fournisseur",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 84.83835574494144,
+                    "y": 59.77544870256287,
+                    "width": 13.064223928963283,
+                    "height": 7.851294770248293
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Si le document n’est pas équilibré, SAP bloquera l’enregistrement.",
+                    "action": "next",
+                    "label_text": "Compris, tout est équilibré",
+                    "description": "SAP affiche un écran de contrôle pour vérifier que Débit = Crédit avant comptabilisation. Il confirme également les informations clés du fournisseur sélectionné (ici : SCREENZ).",
+                    "instruction": "Cliquez pour continuer vers la comptabilisation.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                },
+                {
+                  "id": "63855d74-7724-4286-accb-371711b20422",
+                  "field_id": "temp_field_1767541317702",
+                  "name": "Post",
+                  "field_type": "button",
+                  "position": {
+                    "x": 20.061578763831832,
+                    "y": 9.083393338133718,
+                    "width": 2.830581851275375,
+                    "height": 3.2429261007547274
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "La pièce sera ensuite consultable via FB03 et visible dans FBL1N.",
+                    "action": "next",
+                    "description": "Comptabilise la facture et enregistre la pièce dans SAP.",
+                    "instruction": "Cliquez sur Post.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bfac317d-bd13-44ba-a077-926511f70f4b",
+          "collection_id": "collection_1767541389301",
+          "required": true,
+          "source_url": "manual/collection_1767541389301",
+          "sequence": 3,
+          "created_at": "2026-02-10T10:03:55.236265+00:00",
+          "updated_at": "2026-02-10T10:03:55.236265+00:00",
+          "title": "Document comptabilitsé",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "dac68b55-2b64-461e-8037-c900e797c276",
+              "image_id": "img_1767541389301",
+              "sequence": 0,
+              "image": "images/12b4bae5-2362-466e-97c3-517f8aec7035/bfac317d-bd13-44ba-a077-926511f70f4b/img_1767541389301.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.236265+00:00",
+              "updated_at": "2026-02-10T10:03:55.236265+00:00",
+              "fields": [
+                {
+                  "id": "cb331ce1-8f34-4c08-be61-f57ff661f920",
+                  "field_id": "temp_field_1767541482982",
+                  "name": "Confirmation – Document posté",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 54.8312558687607,
+                    "y": 30.759794116862686,
+                    "width": 20.6212140739786,
+                    "height": 25.943408806037816
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Notez ce numéro, il servira pour le contrôle et le reporting.",
+                    "action": "next",
+                    "label_text": "Compris, afficher le numéro",
+                    "description": "SAP a comptabilisé la facture et a généré un numéro de document séquentiel pour l’identifier de manière unique.",
+                    "instruction": "Cliquez pour terminer la simulation.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.236265+00:00",
+                  "updated_at": "2026-02-10T10:03:55.236265+00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "course_creation_session_id": null,
+      "attached_document_url": null,
+      "attached_document_name": null,
+      "attached_document_type": null,
+      "exam_mode_enabled": false,
+      "rdp_enabled": false,
+      "rdp_instructions_url": null,
+      "practice_level": 1
+    },
+    {
+      "subtask_id": "9d9d138c-c868-45b6-9545-bc9c3e698023",
+      "collection_id": null,
+      "title": "New Practice Exercise",
+      "description": "",
+      "language": "en",
+      "type": null,
+      "formation_type": null,
+      "is_completed": false,
+      "required": true,
+      "subtask_count": 0,
+      "total_image_count": 0,
+      "created_at": "2026-02-10T10:03:55.724589+00:00",
+      "updated_at": "2026-02-10T10:03:55.724589+00:00",
+      "id": "0826c885-25f9-4e8f-bc8a-751173d1c739",
+      "processing_status": "COMPLETED",
+      "processing_progress": 0,
+      "processing_message": null,
+      "processing_error": null,
+      "total_steps": 0,
+      "processed_steps": 0,
+      "overview": null,
+      "prerequisites": [],
+      "learning_objectives": [],
+      "estimated_duration": 600,
+      "difficulty": "beginner",
+      "target_audience": null,
+      "tags": [],
+      "sections": [],
+      "platform": "Web",
+      "domain": null,
+      "is_multi_page": false,
+      "urls": null,
+      "quality_score": null,
+      "session_metadata": {
+        "source": "manual",
+        "formatVersion": "3.0"
+      },
+      "total_step_count": 21,
+      "completed_step_count": 0,
+      "collections": [
+        {
+          "id": "ce5f114a-5544-4092-b6e8-01dacbe03465",
+          "collection_id": "collection_1767542245506",
+          "required": true,
+          "source_url": "manual/collection_1767542245506",
+          "sequence": 0,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Recherche fournisseur",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "a19cb6f5-019e-49a0-9e5e-98fede59eb44",
+              "image_id": "img_1767542245506",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/ce5f114a-5544-4092-b6e8-01dacbe03465/img_1767542245506.png",
+              "instruction": "Upload a screenshot to get started",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "d51034ef-ad78-4b98-aa98-3073837b66cd",
+                  "field_id": "temp_field_1767551711934",
+                  "name": "Matchcode Vendor",
+                  "field_type": "button",
+                  "position": {
+                    "x": 28.54773061531621,
+                    "y": 27.3461876950156,
+                    "width": 1.7512056640558191,
+                    "height": 3.584286742939433
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "En challenge, on ne tape pas directement : on recherche comme en vrai.",
+                    "action": "next",
+                    "description": "Ouvre la recherche fournisseur pour éviter les erreurs de saisie et trouver rapidement le bon fournisseur.",
+                    "instruction": "Cliquez sur le matchcode du champ Vendor.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0311ef76-16d7-49ea-910e-90e975439029",
+          "collection_id": "collection_1767551755550",
+          "required": true,
+          "source_url": "manual/collection_1767551755550",
+          "sequence": 1,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Filtre fournisseur",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "130ec3bb-7e60-4e39-8ec8-c2673425e880",
+              "image_id": "img_1767551755550",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/0311ef76-16d7-49ea-910e-90e975439029/img_1767551755550.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "c6ee5763-a3b4-4691-84cf-0fef3bcc8286",
+                  "field_id": "temp_field_1767551829885",
+                  "name": "City",
+                  "field_type": "text",
+                  "position": {
+                    "x": 33.45268977248565,
+                    "y": 37.07496599727978,
+                    "width": 22.970869657665318,
+                    "height": 3.072245779662372
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Utilisez les filtres pour gagner du temps et éviter de choisir le mauvais fournisseur.",
+                    "description": "Filtre la recherche fournisseur par ville pour réduire la liste de résultats.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "Gaza"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "52caddd2-0eb9-4379-b251-04a119843ff5",
+                  "field_id": "temp_field_1767551867573",
+                  "name": "Name of Vendor",
+                  "field_type": "text",
+                  "position": {
+                    "x": 33.45268977248565,
+                    "y": 46.291703336266906,
+                    "width": 22.970869657665318,
+                    "height": 3.072245779662372
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Vous pouvez combiner City + Vendor pour une recherche plus rapide.",
+                    "description": "Permet de rechercher un fournisseur précis par son code.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "SABIL"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "c4cb0105-fb3a-4d64-9eb0-e8946292e413",
+                  "field_id": "temp_field_1767551909888",
+                  "name": "Start search button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 38.35169041037636,
+                    "y": 73.7712350321359,
+                    "width": 9.362534552413356,
+                    "height": 3.7549670640317903
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Si aucun résultat n’apparaît, vérifiez l’orthographe des filtres.",
+                    "action": "next",
+                    "description": "Lance la recherche fournisseur avec les critères saisis.",
+                    "instruction": "Cliquez sur Start search.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a12fe33a-654e-48aa-a401-c06e5c4f4f39",
+          "collection_id": "collection_1767551919967",
+          "required": true,
+          "source_url": "manual/collection_1767551919967",
+          "sequence": 2,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Selection SABIL",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "90682c1f-f69d-4e6a-9268-cf59e64188d2",
+              "image_id": "img_1767551919967",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/a12fe33a-654e-48aa-a401-c06e5c4f4f39/img_1767551919967.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "e7c4db94-b3a9-4ad0-8029-7560a028a72c",
+                  "field_id": "temp_field_1767551991656",
+                  "name": "Selection SABIL",
+                  "field_type": "button",
+                  "position": {
+                    "x": 15.7453619247582,
+                    "y": 27.004827052830894,
+                    "width": 28.086600351082502,
+                    "height": 3.413606421847077
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Assurez-vous de sélectionner le bon fournisseur avant de continuer.",
+                    "action": "next",
+                    "description": "Sélectionne le fournisseur trouvé et le renseigne automatiquement dans FB60.",
+                    "instruction": "Cliquez sur la ligne du fournisseur SABIL",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9d8b3148-706b-44fa-bc67-9413445c90de",
+          "collection_id": "collection_1767552014121",
+          "required": true,
+          "source_url": "manual/collection_1767552014121",
+          "sequence": 3,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Entête pièce",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "fb44711c-e747-4003-8d05-ccf3a99cd18e",
+              "image_id": "img_1767552014121",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/9d8b3148-706b-44fa-bc67-9413445c90de/img_1767552014121.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "3f7940c1-a85b-4c60-ad63-7628af2bc3d5",
+                  "field_id": "temp_field_1767552073720",
+                  "name": "Invoice Date",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.47003187005243,
+                    "y": 30.930474437955034,
+                    "width": 8.443850450635686,
+                    "height": 3.2429261007547283
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "C’est une date de référence du document.",
+                    "description": "Date affichée sur la facture fournisseur.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "05.01.2026"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "04f8ae63-07f4-4b75-86c8-100e3bd2df3e",
+                  "field_id": "temp_field_1767552110853",
+                  "name": "Reference",
+                  "field_type": "text",
+                  "position": {
+                    "x": 39.03396045371989,
+                    "y": 30.759794116862686,
+                    "width": 13.378568246461736,
+                    "height": 3.584286742939432
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Une bonne référence facilite la recherche dans FBL1N.",
+                    "description": "Référence pratique pour identifier la facture (numéro facture, code interne).",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "CARTE MT8"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "a61ce770-1d16-4d81-af57-dda7958681c3",
+                  "field_id": "temp_field_1767552151854",
+                  "name": "Amount",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.47003187005243,
+                    "y": 42.1953756300504,
+                    "width": 13.268907850998938,
+                    "height": 3.2429261007547283
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Le montant doit être identique au montant de la facture fournie.",
+                    "description": "Montant total de la facture à enregistrer.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "775850"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "77d35a4b-5cbf-4445-8c52-dccdb6944207",
+                  "field_id": "temp_field_1767552197404",
+                  "name": "Text",
+                  "field_type": "text",
+                  "position": {
+                    "x": 14.47003187005243,
+                    "y": 50.04667040029869,
+                    "width": 36.29759089818718,
+                    "height": 3.2429261007547283
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Utilisez un texte explicite et court.",
+                    "description": "Texte d’en-tête pour décrire l’opération.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "RF996SABIL"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "66c0bd7e-8742-4cb8-b0fd-99c14fe95d65",
+                  "field_id": "temp_field_1767552313816",
+                  "name": "Info",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 57.01826530961927,
+                    "y": 47.31578526282103,
+                    "width": 18.313286042287796,
+                    "height": 15.01986825612715
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "La facture alimente le fournisseur, la contrepartie alimente le GL.",
+                    "action": "next",
+                    "label_text": "Compris, passer à la contrepartie",
+                    "description": "Vous avez complété l’en-tête du document (fournisseur, date, référence, montant, texte). Maintenant, vous allez renseigner la contrepartie : un compte de charge en grand livre.",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5a88681a-0c34-4723-9014-61184c6deb5f",
+          "collection_id": "collection_1767552228211",
+          "required": true,
+          "source_url": "manual/collection_1767552228211",
+          "sequence": 4,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Recherche compte G/L",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "07959d9e-5e3b-4ea0-a3b0-8a1cb68b4b26",
+              "image_id": "img_1767552228211",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/5a88681a-0c34-4723-9014-61184c6deb5f/img_1767552228211.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "3d2e9db0-2de6-4fbe-abe8-4c7c406b337d",
+                  "field_id": "temp_field_1767552380250",
+                  "name": "Matchcode GL",
+                  "field_type": "button",
+                  "position": {
+                    "x": 14.375175012091745,
+                    "y": 76.50212016961356,
+                    "width": 1.737817037055893,
+                    "height": 3.584286742939443
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Très utile quand il y a beaucoup de comptes proches (6121, 6122, 6123…).",
+                    "action": "next",
+                    "description": "Ouvre la recherche des comptes GL pour sélectionner le bon compte sans erreur.",
+                    "instruction": "Cliquez sur le matchcode du champ GL account.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "74f02c7a-f307-40a9-9195-41a8d39b5697",
+          "collection_id": "collection_1767552400703",
+          "required": true,
+          "source_url": "manual/collection_1767552400703",
+          "sequence": 5,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Filtre compte G/L",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "54365a36-e9b3-4ac7-bd45-4ee56209afa5",
+              "image_id": "img_1767552400703",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/74f02c7a-f307-40a9-9195-41a8d39b5697/img_1767552400703.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "735d19da-600d-47c3-a4bf-3effed285beb",
+                  "field_id": "temp_field_1767552440719",
+                  "name": "Filter GL account number",
+                  "field_type": "text",
+                  "position": {
+                    "x": 36.46203843496507,
+                    "y": 39.29381017148039,
+                    "width": 11.463957624299496,
+                    "height": 3.2429261007547305
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Vous pouvez aussi rechercher par description si votre système le permet.",
+                    "description": "Champ de recherche pour retrouver rapidement le bon compte GL.",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "6121"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "2e715f3c-d27b-4984-a208-194fe2cf4e38",
+                  "field_id": "temp_field_1767552481569",
+                  "name": "Start search button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 41.37516313109342,
+                    "y": 72.57647278448943,
+                    "width": 11.573138173102352,
+                    "height": 3.413606421847086
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Si aucun résultat, vérifiez le plan comptable ou la société.",
+                    "action": "next",
+                    "description": "Lance la recherche du compte GL avec le filtre saisi.",
+                    "instruction": "Cliquez sur Start search.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f6e17b4b-ad02-4e55-aba7-a2aca1c64e62",
+          "collection_id": "collection_1767552548532",
+          "required": true,
+          "source_url": "manual/collection_1767552548532",
+          "sequence": 6,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Selection 6121",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "ba957967-8a22-46b7-9eb6-05de1672d8bf",
+              "image_id": "img_1767552548532",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/f6e17b4b-ad02-4e55-aba7-a2aca1c64e62/img_1767552548532.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "82d5db4d-25fc-44c0-8d7e-ae5f439e9c0c",
+                  "field_id": "temp_field_1767552601475",
+                  "name": "Select account button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 17.890610384530348,
+                    "y": 52.43619489559165,
+                    "width": 26.558274800591843,
+                    "height": 3.5842867429394367
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Le 6121 est un compte de charge : c’est la contrepartie de la facture.",
+                    "action": "next",
+                    "description": "Sélectionne le compte GL et le renseigne automatiquement dans FB60.",
+                    "instruction": "Cliquez sur Select account (compte 6121).",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "393a4c55-972d-4478-8754-ce1cff027c05",
+          "collection_id": "collection_1767552632022",
+          "required": true,
+          "source_url": "manual/collection_1767552632022",
+          "sequence": 7,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Montant de contrepartie",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "34a7d8af-f20d-40ec-8089-6850fccb209e",
+              "image_id": "img_1767552632022",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/393a4c55-972d-4478-8754-ce1cff027c05/img_1767552632022.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "06a314ee-0bf1-4d90-85a7-8de7228fcbd1",
+                  "field_id": "temp_field_1767552680489",
+                  "name": "Amount in Document currency",
+                  "field_type": "text",
+                  "position": {
+                    "x": 29.058701592386697,
+                    "y": 76.50212016961356,
+                    "width": 13.924603616490922,
+                    "height": 3.584286742939445
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Le montant doit équilibrer le montant fournisseur.",
+                    "description": "Montant imputé sur la ligne de contrepartie (compte GL).",
+                    "instruction": "",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "775850"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "36f26283-ad4c-4fcc-8668-e205ee326bd6",
+          "collection_id": "collection_1767552714000",
+          "required": true,
+          "source_url": "manual/collection_1767552714000",
+          "sequence": 8,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Simulation écriture",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "10315fcd-9dba-4820-b16c-5c6b2ccf237e",
+              "image_id": "img_1767552714000",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/36f26283-ad4c-4fcc-8668-e205ee326bd6/img_1767552714000.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "7fce2e0d-2d30-420a-97af-499397ce8724",
+                  "field_id": "temp_field_1767552761112",
+                  "name": "Info button",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 79.6189247311828,
+                    "y": 60.11680934474758,
+                    "width": 14.974623655913986,
+                    "height": 7.68061444915593
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Si ce n’est pas équilibré, SAP bloquera le post.",
+                    "action": "next",
+                    "label_text": "Compris, vérifier l’équilibre",
+                    "description": "SAP vérifie que Débit = Crédit avant la comptabilisation, et confirme les infos du fournisseur (SABIL) et de la contrepartie (6121).",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "079e5aa1-bede-4ffc-abbb-4dcc90fdfc32",
+                  "field_id": "temp_field_1767552808805",
+                  "name": "Simulate button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 52.31225806451613,
+                    "y": 8.742032695949009,
+                    "width": 8.037849462365596,
+                    "height": 3.072245779662374
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Très utile pour repérer une mauvaise imputation avant l’enregistrement.",
+                    "action": "next",
+                    "description": "Lance une simulation de la pièce pour vérifier l’impact avant de poster.",
+                    "instruction": "Cliquez sur Simulate.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d8200b67-08b6-4bb8-aa99-ddee06052bf5",
+          "collection_id": "collection_1767552835774",
+          "required": true,
+          "source_url": "manual/collection_1767552835774",
+          "sequence": 9,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Retour vers le document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "f881b941-6c60-49fb-a758-7205f16c3db6",
+              "image_id": "img_1767552835774",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/d8200b67-08b6-4bb8-aa99-ddee06052bf5/img_1767552835774.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "b319b71f-331a-4970-ae82-136b3a706412",
+                  "field_id": "temp_field_1767553287820",
+                  "name": "Info button",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 71.35416666666666,
+                    "y": 56.997090635744804,
+                    "width": 16.927083333333336,
+                    "height": 11.047231927836629
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Pensez “Simulate = dernière vérification” avant de cliquer sur Post.",
+                    "action": "next",
+                    "label_text": "Compris, je peux poster",
+                    "description": "La simulation confirme que le document semble correct (montants cohérents, écriture équilibrée). C’est une étape de vérification très utile, car une fois une pièce comptabilisée dans SAP, on ne peut pas simplement la supprimer : on doit la corriger via des opérations contrôlées (ex. annulation/contrepassation).",
+                    "instruction": "Cliquez pour continuer vers la comptabilisation.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                },
+                {
+                  "id": "d5ea4844-47b3-43c1-aac4-c5309ddca90a",
+                  "field_id": "temp_field_1767553336186",
+                  "name": "Back to document",
+                  "field_type": "button",
+                  "position": {
+                    "x": 1.0416666666666665,
+                    "y": 0.5136628756768795,
+                    "width": 3.472222222222222,
+                    "height": 6.592702924676698
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Utilisez cette étape si vous devez corriger un champ.",
+                    "action": "next",
+                    "description": "Revient à l’écran du document après la simulation.",
+                    "instruction": "Cliquez sur le bouton Back to document.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a17d3bd-031b-40db-a8b5-5375a086a68e",
+          "collection_id": "collection_1767553380140",
+          "required": true,
+          "source_url": "manual/collection_1767553380140",
+          "sequence": 10,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": "Comptabiliser le document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "91c2f213-a26f-47ef-a25f-b110d5b91ed1",
+              "image_id": "img_1767553380140",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/6a17d3bd-031b-40db-a8b5-5375a086a68e/img_1767553380140.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "1970cf0d-8521-41a4-9fbe-660fe013fadd",
+                  "field_id": "temp_field_1767553419621",
+                  "name": "Post button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 20.050752688172043,
+                    "y": 7.717950769394885,
+                    "width": 3.5234408602150524,
+                    "height": 4.779048990585914
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Après le post, SAP génère un numéro de document unique.",
+                    "action": "next",
+                    "description": "Comptabilise définitivement la facture dans SAP.",
+                    "instruction": "Cliquez sur Post.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "52c59676-230b-4b1f-9e2e-e672d56218f5",
+          "collection_id": "collection_1767553758929",
+          "required": true,
+          "source_url": "manual/collection_1767553758929",
+          "sequence": 11,
+          "created_at": "2026-02-10T10:03:55.724589+00:00",
+          "updated_at": "2026-02-10T10:03:55.724589+00:00",
+          "title": null,
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "bcb1b1c1-deab-45ee-9d52-bb24aa1cb810",
+              "image_id": "img_1767553758929",
+              "sequence": 0,
+              "image": "images/0826c885-25f9-4e8f-bc8a-751173d1c739/52c59676-230b-4b1f-9e2e-e672d56218f5/img_1767553758929.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:55.724589+00:00",
+              "updated_at": "2026-02-10T10:03:55.724589+00:00",
+              "fields": [
+                {
+                  "id": "80a77028-38d6-4c6c-bd77-9cc11bba637a",
+                  "field_id": "temp_field_1767553816721",
+                  "name": "Confirmation document posté",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 55.66183788565742,
+                    "y": 46.291703336266906,
+                    "width": 27.01168491282391,
+                    "height": 13.142384724111261
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Notez le numéro : c’est votre preuve que la mission est réussie.",
+                    "action": "next",
+                    "label_text": "Compris, noter le numéro",
+                    "description": "SAP a comptabilisé la facture fournisseur et a généré un numéro de document séquentiel. Ce numéro permet de retrouver la pièce dans FB03 et dans les reportings fournisseurs.",
+                    "instruction": "Cliquez pour terminer le challenge.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:55.724589+00:00",
+                  "updated_at": "2026-02-10T10:03:55.724589+00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "course_creation_session_id": null,
+      "attached_document_url": "practice/documents/c5cf8429-2b4c-4a9d-a749-b13f0da42c90.pdf",
+      "attached_document_name": "FACTURE FOURNISSEUR sabil.pdf",
+      "attached_document_type": "application/pdf",
+      "exam_mode_enabled": false,
+      "rdp_enabled": false,
+      "rdp_instructions_url": null,
+      "practice_level": 3
+    },
+    {
+      "subtask_id": "625214b4-13b6-4ddb-9991-ae3695ed5a0b",
+      "collection_id": null,
+      "title": "New Practice Exercise",
+      "description": "",
+      "language": "en",
+      "type": null,
+      "formation_type": null,
+      "is_completed": false,
+      "required": true,
+      "subtask_count": 0,
+      "total_image_count": 0,
+      "created_at": "2026-02-10T10:03:56.531320+00:00",
+      "updated_at": "2026-02-10T10:03:56.531320+00:00",
+      "id": "37a4038f-6823-4081-869f-9266f3003bb9",
+      "processing_status": "COMPLETED",
+      "processing_progress": 0,
+      "processing_message": null,
+      "processing_error": null,
+      "total_steps": 0,
+      "processed_steps": 0,
+      "overview": null,
+      "prerequisites": [],
+      "learning_objectives": [],
+      "estimated_duration": 600,
+      "difficulty": "beginner",
+      "target_audience": null,
+      "tags": [],
+      "sections": [],
+      "platform": "Web",
+      "domain": null,
+      "is_multi_page": false,
+      "urls": null,
+      "quality_score": null,
+      "session_metadata": {
+        "source": "manual",
+        "formatVersion": "3.0"
+      },
+      "total_step_count": 12,
+      "completed_step_count": 0,
+      "collections": [
+        {
+          "id": "93c55b3c-5789-4ca3-9c98-69a860bd334a",
+          "collection_id": "collection_1768290386243",
+          "required": true,
+          "source_url": "manual/collection_1768290386243",
+          "sequence": 0,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Recherche document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "26791eff-45ad-4e0d-9a8b-c04d68dd4ef9",
+              "image_id": "img_1768290386243",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/93c55b3c-5789-4ca3-9c98-69a860bd334a/img_1768290386243.png",
+              "instruction": "Upload a screenshot to get started",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "3771f32b-40b8-4c4b-8f35-e0555a1bf6f3",
+                  "field_id": "temp_field_1768295027834",
+                  "name": "Document List button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 23.249427591175273,
+                    "y": 12.640134936675732,
+                    "width": 12.782013880468202,
+                    "height": 5.211347476480595
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Pratique quand on n’a pas le numéro exact sous la main.",
+                    "action": "next",
+                    "description": "Ouvre l’écran de recherche pour retrouver un document comptable à l’aide de filtres.",
+                    "instruction": "Cliquez sur Document list.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "84cd7c3d-a813-4542-8dd4-9e18d556134d",
+          "collection_id": "collection_1768295112745",
+          "required": true,
+          "source_url": "manual/collection_1768295112745",
+          "sequence": 1,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Recherche document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "3927fd02-2e4c-4771-9b85-5f87b84448a0",
+              "image_id": "img_1768295112745",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/84cd7c3d-a813-4542-8dd4-9e18d556134d/img_1768295112745.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "fa29aadf-29fd-41ad-8396-7b8f186a8bbd",
+                  "field_id": "temp_field_1768295195007",
+                  "name": "Company Code",
+                  "field_type": "text",
+                  "position": {
+                    "x": 31.834722171682255,
+                    "y": 16.728545947017242,
+                    "width": 4.541319457079436,
+                    "height": 3.720684415670214
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Un mauvais code société = aucun résultat.",
+                    "description": "Définit la société dans laquelle SAP va chercher le document.",
+                    "instruction": "Entrez le code de société",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "TALA"
+                    ],
+                    "show_placeholder": true,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                },
+                {
+                  "id": "56ed95a8-a6c9-4b36-b799-9579cd078f45",
+                  "field_id": "temp_field_1768297603743",
+                  "name": "Fiscal Year",
+                  "field_type": "text",
+                  "position": {
+                    "x": 31.95116626032532,
+                    "y": 24.846402853934073,
+                    "width": 4.075543102507185,
+                    "height": 3.55156239677611
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Si vous ne trouvez rien, vérifiez l’exercice.",
+                    "description": "Filtre l’exercice comptable du document.",
+                    "instruction": "Renseignez l'année fiscal",
+                    "tooltip_pos": "top",
+                    "check_response": true,
+                    "correct_answers": [
+                      "2026"
+                    ],
+                    "show_placeholder": false,
+                    "multiple_responses": false
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                },
+                {
+                  "id": "6cd47487-479b-468e-b78c-12f1ad3f2f3b",
+                  "field_id": "temp_field_1768297687442",
+                  "name": "Own documents only selection",
+                  "field_type": "checkbox",
+                  "position": {
+                    "x": 3.189476365488883,
+                    "y": 90.46574618484509,
+                    "width": 1.1644408864306248,
+                    "height": 1.860342207835104
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Très utile en formation pour retrouver “vos” pièces.",
+                    "description": "Affiche uniquement les documents comptabilisés par votre utilisateur.",
+                    "instruction": "Cochez Own documents only.",
+                    "tooltip_pos": "top",
+                    "checkbox_type": "check_mark",
+                    "correct_answers": [
+                      1
+                    ]
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "efc7deef-cf70-44f0-80d9-598b633c7a6c",
+          "collection_id": "collection_1768297614288",
+          "required": true,
+          "source_url": "manual/collection_1768297614288",
+          "sequence": 2,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Executer la recherche",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "6d065d42-7b53-4927-bcae-bc0db5aa8701",
+              "image_id": "img_1768297614288",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/efc7deef-cf70-44f0-80d9-598b633c7a6c/img_1768297614288.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "bd638591-9213-4db3-942a-a7942fb59dee",
+                  "field_id": "temp_field_1768298050151",
+                  "name": "Execute",
+                  "field_type": "button",
+                  "position": {
+                    "x": 25.63465458282095,
+                    "y": 8.779811058994516,
+                    "width": 2.371847783973181,
+                    "height": 3.8898064345643126
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "SAP affiche une liste de documents trouvés.",
+                    "action": "next",
+                    "description": "Lance la recherche des documents selon les filtres choisis.",
+                    "instruction": "Cliquez sur Execute.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1f7e1af7-71bc-4ece-b137-f511b8ed0cde",
+          "collection_id": "collection_1768297974659",
+          "required": true,
+          "source_url": "manual/collection_1768297974659",
+          "sequence": 3,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Select document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "b9ab3d20-19d5-4733-b565-d05bb7dd05fe",
+              "image_id": "img_1768297974659",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/1f7e1af7-71bc-4ece-b137-f511b8ed0cde/img_1768297974659.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "4851d948-4325-4e63-adf8-c63f3bfe7b63",
+                  "field_id": "temp_field_1768298102715",
+                  "name": "Select Document Line",
+                  "field_type": "button",
+                  "position": {
+                    "x": 4.621948537497251,
+                    "y": 30.42742947743939,
+                    "width": 43.68946558170222,
+                    "height": 4.397172491246612
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Une fois sélectionné, vous pouvez ouvrir le document.",
+                    "action": "next",
+                    "description": "Sélectionne le document à afficher dans FB03.",
+                    "instruction": "Cliquez sur la ligne du document 1900000306.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b37455a9-8275-4cc8-a6cb-9d530bc3aa58",
+          "collection_id": "collection_1768298110608",
+          "required": true,
+          "source_url": "manual/collection_1768298110608",
+          "sequence": 4,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Affichage document",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "6d8b96e7-9cca-4386-8dcd-2d51bd316bf0",
+              "image_id": "img_1768298110608",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/b37455a9-8275-4cc8-a6cb-9d530bc3aa58/img_1768298110608.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "3d958494-44c5-4aac-9c04-44cc323007eb",
+                  "field_id": "temp_field_1768298190531",
+                  "name": "Document affiché, info",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 72.8756634339108,
+                    "y": 30.93479553412169,
+                    "width": 18.043861743839415,
+                    "height": 9.978199114751932
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "C’est ici qu’on commence le “travail d’audit”.",
+                    "action": "next",
+                    "label_text": "Compris, afficher le document",
+                    "description": "SAP affiche maintenant le document comptable sélectionné. Vous êtes prêt à analyser son contenu et ses vues.",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                },
+                {
+                  "id": "aa6cf930-2b69-4ab9-afda-7748e2cf826f",
+                  "field_id": "temp_field_1768298236548",
+                  "name": "General Ledger View",
+                  "field_type": "button",
+                  "position": {
+                    "x": 50.296186169762045,
+                    "y": 9.287177115676819,
+                    "width": 15.77605398368473,
+                    "height": 5.073660566823017
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "C’est la vue préférée du grand livre… et de SAP.",
+                    "action": "next",
+                    "description": "Bascule la vue du document vers la vue grand livre, qui montre les comptes GL réellement impactés.",
+                    "instruction": "Cliquez sur General Ledger view.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cba3135e-a92a-4606-8630-1a824efabd7c",
+          "collection_id": "collection_1768298450246",
+          "required": true,
+          "source_url": "manual/collection_1768298450246",
+          "sequence": 5,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Vue Grand livre",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "c1a81482-cef8-4762-8296-a01858cb7459",
+              "image_id": "img_1768298450246",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/cba3135e-a92a-4606-8630-1a824efabd7c/img_1768298450246.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "276558a2-ebc0-4769-89b0-7f28e7833919",
+                  "field_id": "temp_field_1768298541914",
+                  "name": "Compte collectif Info",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 75.92377371389506,
+                    "y": 34.486357930897796,
+                    "width": 21.110921210049575,
+                    "height": 21.81674043733897
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "C’est exactement le mécanisme “Subledger → GL”.",
+                    "action": "next",
+                    "label_text": "Compris, c’est le compte collectif",
+                    "description": "En Vendor view, SAP affiche le fournisseur SABIL. En GL view, SAP remplace ce fournisseur par son compte collectif : 4411. Cela prouve que le fournisseur est géré en sous-journal, mais que le grand livre reçoit un compte GL standard.",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                },
+                {
+                  "id": "9809862c-e5fe-499c-9561-845e3a2c8baa",
+                  "field_id": "temp_field_1768298583131",
+                  "name": "Hat icone",
+                  "field_type": "button",
+                  "position": {
+                    "x": 26.48265253802769,
+                    "y": 9.287177115676819,
+                    "width": 2.6251922748248138,
+                    "height": 4.058928453458413
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Ce bouton cache souvent des infos très utiles.",
+                    "action": "next",
+                    "description": "Ouvre une fenêtre avec des informations détaillées sur l’en-tête du document.",
+                    "instruction": "Cliquez sur l’icône chapeau.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dd9c466a-58e2-457c-bb45-9d1f9e2b617c",
+          "collection_id": "collection_1768298592151",
+          "required": true,
+          "source_url": "manual/collection_1768298592151",
+          "sequence": 6,
+          "created_at": "2026-02-10T10:03:56.531320+00:00",
+          "updated_at": "2026-02-10T10:03:56.531320+00:00",
+          "title": "Entête pièce",
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "720dd777-5cd6-4540-b19e-41f7b6904d4c",
+              "image_id": "img_1768298592151",
+              "sequence": 0,
+              "image": "images/37a4038f-6823-4081-869f-9266f3003bb9/dd9c466a-58e2-457c-bb45-9d1f9e2b617c/img_1768298592151.png",
+              "instruction": "",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:56.531320+00:00",
+              "updated_at": "2026-02-10T10:03:56.531320+00:00",
+              "fields": [
+                {
+                  "id": "7390bf29-6357-4c35-8faf-5b52873e82da",
+                  "field_id": "temp_field_1768298640546",
+                  "name": "Info d'entete, info",
+                  "field_type": "button_filled",
+                  "position": {
+                    "x": 8.004655777147635,
+                    "y": 25.86113496729867,
+                    "width": 22.99766429971956,
+                    "height": 15.22098170046905
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Idéal pour vérifier qui a comptabilisé quoi, et quand.",
+                    "action": "next",
+                    "label_text": "Compris, je vois l’en-tête",
+                    "description": "SAP affiche des informations d’en-tête comme le type de document, la date, l’utilisateur ayant comptabilisé la pièce, et d’autres données de traçabilité. •\tInstruction : Cliquez pour continuer.",
+                    "instruction": "Cliquez pour continuer.",
+                    "tooltip_pos": "top",
+                    "button_style": "filled"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                },
+                {
+                  "id": "b1af2fc9-33d3-450e-a73f-fd8f75019f0a",
+                  "field_id": "temp_field_1768298673797",
+                  "name": "Close button",
+                  "field_type": "button",
+                  "position": {
+                    "x": 92.79604415176584,
+                    "y": 12.33137345577063,
+                    "width": 2.599735964316115,
+                    "height": 3.7206844156702115
+                  },
+                  "required": true,
+                  "colored": false,
+                  "active": true,
+                  "order": 2,
+                  "field_data": {
+                    "hint": "Vous revenez à la vue normale du document.",
+                    "action": "next",
+                    "description": "Ferme la fenêtre de détails et revient à l’écran principal du document.",
+                    "instruction": "Cliquez sur Close.",
+                    "tooltip_pos": "top"
+                  },
+                  "created_at": "2026-02-10T10:03:56.531320+00:00",
+                  "updated_at": "2026-02-10T10:03:56.531320+00:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "course_creation_session_id": null,
+      "attached_document_url": null,
+      "attached_document_name": null,
+      "attached_document_type": null,
+      "exam_mode_enabled": false,
+      "rdp_enabled": false,
+      "rdp_instructions_url": null,
+      "practice_level": 1
+    },
+    {
+      "subtask_id": "5ba6a07f-a6a2-4dff-a559-671c2d15817c",
+      "collection_id": null,
+      "title": "New Practice Exercise",
+      "description": "",
+      "language": "en",
+      "type": null,
+      "formation_type": null,
+      "is_completed": false,
+      "required": true,
+      "subtask_count": 0,
+      "total_image_count": 0,
+      "created_at": "2026-02-10T10:03:57.056478+00:00",
+      "updated_at": "2026-02-10T10:03:57.056478+00:00",
+      "id": "7d82a535-1b39-48e0-b3b0-bae8c5fe3d77",
+      "processing_status": "COMPLETED",
+      "processing_progress": 0,
+      "processing_message": null,
+      "processing_error": null,
+      "total_steps": 0,
+      "processed_steps": 0,
+      "overview": null,
+      "prerequisites": [],
+      "learning_objectives": [],
+      "estimated_duration": 600,
+      "difficulty": "beginner",
+      "target_audience": null,
+      "tags": [],
+      "sections": [],
+      "platform": "Web",
+      "domain": null,
+      "is_multi_page": false,
+      "urls": null,
+      "quality_score": null,
+      "session_metadata": {
+        "source": "manual",
+        "formatVersion": "3.0"
+      },
+      "total_step_count": 0,
+      "completed_step_count": 0,
+      "collections": [
+        {
+          "id": "211809f3-5bab-4133-92f6-1f10f86c64ec",
+          "collection_id": "collection_1768315427395",
+          "required": true,
+          "source_url": "manual/collection_1768315427396",
+          "sequence": 0,
+          "created_at": "2026-02-10T10:03:57.056478+00:00",
+          "updated_at": "2026-02-10T10:03:57.056478+00:00",
+          "title": null,
+          "description": null,
+          "collection_type": "interactive",
+          "reading_content": null,
+          "interactive_images": [
+            {
+              "id": "d3a0f841-eaee-4911-9b5a-492e82be6711",
+              "image_id": "img_1768315427396",
+              "sequence": 0,
+              "image": null,
+              "instruction": "Upload a screenshot to get started",
+              "hint": "",
+              "tooltip_pos": "top",
+              "screenshot_width": 1920,
+              "screenshot_height": 1080,
+              "created_at": "2026-02-10T10:03:57.056478+00:00",
+              "updated_at": "2026-02-10T10:03:57.056478+00:00",
+              "fields": []
+            }
+          ]
+        }
+      ],
+      "course_creation_session_id": null,
+      "attached_document_url": null,
+      "attached_document_name": null,
+      "attached_document_type": null,
+      "exam_mode_enabled": false,
+      "rdp_enabled": false,
+      "rdp_instructions_url": null,
+      "practice_level": 1
+    }
+  ]
+}
