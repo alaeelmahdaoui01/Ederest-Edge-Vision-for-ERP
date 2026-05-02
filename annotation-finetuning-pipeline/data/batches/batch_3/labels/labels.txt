@@ -1,9 +1,8 @@
 button
-checkbox 
+checkbox
 datepicker
 dropdown
-radiobutton
+radio button
 textbox
 table
 popup
-errorstate

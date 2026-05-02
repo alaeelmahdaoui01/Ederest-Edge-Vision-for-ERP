@@ -6,8 +6,8 @@ nc: 6
 names:
   0: button
   1: checkbox
-  2: datepicker
-  3: dropdown
-  4: radio button
-  5: textbox
+  2: dropdown
+  3: radio button
+  4: textbox
+  5: popup
 
