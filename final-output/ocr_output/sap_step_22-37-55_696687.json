@@ -1,0 +1,104 @@
+{
+  "ocr_regions": [
+    {
+      "polygon": [[10, 5], [100, 5], [100, 25], [10, 25]],
+      "text": "Logistique",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[110, 5], [200, 5], [200, 25], [110, 25]],
+      "text": "Gestion stocks",
+      "confidence": 0.98
+    },
+    {
+      "polygon": [[15, 45], [75, 45], [75, 65], [15, 65]],
+      "text": "Valider",
+      "confidence": 0.97
+    },
+    {
+      "polygon": [[95, 45], [155, 45], [155, 65], [95, 65]],
+      "text": "Annuler",
+      "confidence": 0.96
+    },
+    {
+      "polygon": [[55, 155], [175, 155], [175, 175], [55, 175]],
+      "text": "Code Article:",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[205, 155], [350, 155], [350, 175], [205, 175]],
+      "text": "P-1004",
+      "confidence": 0.94
+    },
+    {
+      "polygon": [[55, 195], [175, 195], [175, 215], [55, 215]],
+      "text": "Quantité:",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[205, 195], [350, 195], [350, 215], [205, 215]],
+      "text": "500",
+      "confidence": 0.92
+    },
+    {
+      "polygon": [[55, 235], [175, 235], [175, 255], [55, 255]],
+      "text": "Usine:",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[205, 235], [350, 235], [350, 255], [205, 255]],
+      "text": "MAR1",
+      "confidence": 0.95
+    },
+    {
+      "polygon": [[25, 105], [115, 105], [115, 125], [25, 125]],
+      "text": "Général",
+      "confidence": 0.98
+    },
+    {
+      "polygon": [[135, 105], [225, 105], [225, 125], [135, 125]],
+      "text": "Ventes",
+      "confidence": 0.97
+    },
+    {
+      "polygon": [[35, 305], [145, 305], [145, 320], [35, 320]],
+      "text": "ID_LIGNE",
+      "confidence": 0.93
+    },
+    {
+      "polygon": [[160, 305], [295, 305], [295, 320], [160, 320]],
+      "text": "DESIGNATION",
+      "confidence": 0.94
+    },
+    {
+      "polygon": [[310, 305], [445, 305], [445, 320], [310, 320]],
+      "text": "PRIX_UNIT",
+      "confidence": 0.95
+    },
+    {
+      "polygon": [[855, 55], [945, 55], [945, 75], [855, 75]],
+      "text": "ENREGISTRER",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[605, 155], [795, 155], [795, 175], [605, 175]],
+      "text": "Commentaire",
+      "confidence": 0.88
+    },
+    {
+      "polygon": [[5, 975], [300, 975], [300, 995], [5, 995]],
+      "text": "Utilisateur: Hiba - Système: ERP1",
+      "confidence": 0.99
+    },
+    {
+      "polygon": [[475, 155], [530, 155], [530, 175], [475, 175]],
+      "text": "Urgent",
+      "confidence": 0.91
+    },
+    {
+      "polygon": [[400, 5], [600, 5], [600, 30], [400, 30]],
+      "text": "SAP ECC 6.0 - [VA01]",
+      "confidence": 0.99
+    }
+  ]
+}
