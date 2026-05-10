@@ -1,0 +1,306 @@
+[
+  {
+    "type": "textbox",
+    "bbox": [
+      259,
+      185,
+      845,
+      323
+    ],
+    "confidence": 0.911,
+    "center": [
+      552,
+      254
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      266,
+      565,
+      417,
+      589
+    ],
+    "confidence": 0.892,
+    "center": [
+      341,
+      577
+    ],
+    "label": "",
+    "value": "Affecter liste de tâches"
+  },
+  {
+    "type": "button",
+    "bbox": [
+      11,
+      52,
+      128,
+      73
+    ],
+    "confidence": 0.878,
+    "center": [
+      69,
+      62
+    ],
+    "label": "",
+    "value": "Contrôler entrées"
+  },
+  {
+    "type": "textbox",
+    "bbox": [
+      917,
+      423,
+      1240,
+      450
+    ],
+    "confidence": 0.868,
+    "center": [
+      1078,
+      436
+    ],
+    "label": "Sous-ensemble:",
+    "value": ""
+  },
+  {
+    "type": "dropdown",
+    "bbox": [
+      915,
+      455,
+      1136,
+      482
+    ],
+    "confidence": 0.853,
+    "center": [
+      1025,
+      468
+    ],
+    "label": "Priorité:",
+    "value": ""
+  },
+  {
+    "type": "dropdown",
+    "bbox": [
+      150,
+      51,
+      342,
+      75
+    ],
+    "confidence": 0.853,
+    "center": [
+      246,
+      63
+    ],
+    "label": "Contrôler entrées",
+    "value": "Fonctions supplémentaires"
+  },
+  {
+    "type": "dropdown",
+    "bbox": [
+      364,
+      52,
+      504,
+      74
+    ],
+    "confidence": 0.852,
+    "center": [
+      434,
+      63
+    ],
+    "label": "Fonctions supplémentaires",
+    "value": "Vous pouvez aussi"
+  },
+  {
+    "type": "textbox",
+    "bbox": [
+      258,
+      454,
+      328,
+      481
+    ],
+    "confidence": 0.85,
+    "center": [
+      293,
+      467
+    ],
+    "label": "Type de travail:",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      28,
+      144,
+      84,
+      169
+    ],
+    "confidence": 0.836,
+    "center": [
+      56,
+      156
+    ],
+    "label": "",
+    "value": "Postes"
+  },
+  {
+    "type": "button",
+    "bbox": [
+      105,
+      141,
+      294,
+      168
+    ],
+    "confidence": 0.835,
+    "center": [
+      199,
+      154
+    ],
+    "label": "",
+    "value": "Données de planification"
+  },
+  {
+    "type": "button",
+    "bbox": [
+      1241,
+      596,
+      1333,
+      620
+    ],
+    "confidence": 0.823,
+    "center": [
+      1287,
+      608
+    ],
+    "label": "",
+    "value": "Sauvegarder"
+  },
+  {
+    "type": "button",
+    "bbox": [
+      0,
+      596,
+      37,
+      620
+    ],
+    "confidence": 0.809,
+    "center": [
+      18,
+      608
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "dropdown",
+    "bbox": [
+      1274,
+      50,
+      1319,
+      76
+    ],
+    "confidence": 0.776,
+    "center": [
+      1296,
+      63
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      1219,
+      424,
+      1243,
+      448
+    ],
+    "confidence": 0.76,
+    "center": [
+      1231,
+      436
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      1197,
+      4,
+      1226,
+      29
+    ],
+    "confidence": 0.685,
+    "center": [
+      1211,
+      16
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "checkbox",
+    "bbox": [
+      258,
+      490,
+      276,
+      509
+    ],
+    "confidence": 0.68,
+    "center": [
+      267,
+      499
+    ],
+    "label": "Ne pas lancer tout de suite:",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      1240,
+      3,
+      1269,
+      30
+    ],
+    "confidence": 0.653,
+    "center": [
+      1254,
+      16
+    ],
+    "label": "",
+    "value": "0"
+  },
+  {
+    "type": "button",
+    "bbox": [
+      21,
+      3,
+      48,
+      29
+    ],
+    "confidence": 0.64,
+    "center": [
+      34,
+      16
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      1284,
+      3,
+      1315,
+      30
+    ],
+    "confidence": 0.598,
+    "center": [
+      1299,
+      16
+    ],
+    "label": "",
+    "value": ""
+  }
+]
