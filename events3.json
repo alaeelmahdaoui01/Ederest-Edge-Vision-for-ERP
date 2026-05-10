@@ -1,0 +1,20 @@
+[
+  {
+    "step": 1,
+    "type": "click",
+    "x": 530,
+    "y": 251,
+    "value": null,
+    "screenshot": "b4_014_Création_Contrat_Cré_image_2025-05-18_100924452_9a36263576ab4659b15181d7ff26911d.png",
+    "timestamp": "step_001"
+  },
+  {
+    "step": 2,
+    "type": "click",
+    "x": 575,
+    "y": 369,
+    "value": null,
+    "screenshot": "b4_018_Création_Contrat_Cré_image_2025-05-18_101820936_6f9fd47f7a5945189097f0c7ca52f236.png",
+    "timestamp": "step_002"
+  }
+]
