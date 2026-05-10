@@ -111,7 +111,7 @@ def capture_and_save(x, y, button_type):
 
 def on_click(x, y, button, pressed):
     if pressed:
-        time.sleep(0.2) # On laisse l'écran se rafraîchir
+        #time.sleep(0.2) # On laisse l'écran se rafraîchir
         capture_and_save(x, y, button)
 
 with mouse.Listener(on_click=on_click) as listener:
