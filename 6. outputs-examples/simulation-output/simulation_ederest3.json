@@ -1,0 +1,120 @@
+{
+  "title": "Simulation SAP",
+  "platform": "SAP",
+  "language": "fr",
+  "formation_type": "TUTORIAL",
+  "difficulty": "beginner",
+  "total_step_count": 3,
+  "total_image_count": 3,
+  "collections": [
+    {
+      "collection_id": "collection_1",
+      "collection_type": "interactive",
+      "sequence": 0,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_0_click",
+          "sequence": 0,
+          "image": "b4_014_Création_Contrat_Cré_image_2025-05-18_100924452_9a36263576ab4659b15181d7ff26911d.png",
+          "instruction": "Cliquez sur Fin de validité:",
+          "screenshot_width": 1311,
+          "screenshot_height": 589,
+          "fields": [
+            {
+              "field_id": "step_0_field_click",
+              "name": "Fin de validité:",
+              "field_type": "text",
+              "active": true,
+              "required": true,
+              "colored": true,
+              "order": 0,
+              "position": {
+                "x": 36.54,
+                "y": 40.75,
+                "width": 7.7,
+                "height": 3.9,
+                "canvas_width": 1311,
+                "canvas_height": 589
+              },
+              "field_data": {
+                "description": "Fin de validité:",
+                "instruction": "Cliquez sur Fin de validité:",
+                "check_response": false,
+                "correct_answers": []
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_0_type",
+          "sequence": 1,
+          "image": "b4_018_Création_Contrat_Cré_image_2025-05-18_101820936_6f9fd47f7a5945189097f0c7ca52f236.png",
+          "instruction": "Tapez 2025 dans Fin de validité:",
+          "screenshot_width": 1313,
+          "screenshot_height": 636,
+          "fields": [
+            {
+              "field_id": "step_0_field_type",
+              "name": "Fin de validité:",
+              "field_type": "text",
+              "active": true,
+              "required": true,
+              "colored": true,
+              "order": 0,
+              "position": {
+                "x": 36.48,
+                "y": 37.74,
+                "width": 7.69,
+                "height": 3.62,
+                "canvas_width": 1313,
+                "canvas_height": 636
+              },
+              "field_data": {
+                "description": "Fin de validité:",
+                "instruction": "Tapez 2025",
+                "check_response": true,
+                "correct_answers": [
+                  "2025"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_1_click",
+          "sequence": 2,
+          "image": "b4_018_Création_Contrat_Cré_image_2025-05-18_101820936_6f9fd47f7a5945189097f0c7ca52f236.png",
+          "instruction": "Cliquez sur Val. cible:",
+          "screenshot_width": 1313,
+          "screenshot_height": 636,
+          "fields": [
+            {
+              "field_id": "step_1_field_click",
+              "name": "Val. cible:",
+              "field_type": "text",
+              "active": true,
+              "required": true,
+              "colored": true,
+              "order": 0,
+              "position": {
+                "x": 36.63,
+                "y": 55.82,
+                "width": 14.32,
+                "height": 4.09,
+                "canvas_width": 1313,
+                "canvas_height": 636
+              },
+              "field_data": {
+                "description": "Val. cible:",
+                "instruction": "Cliquez sur Val. cible:",
+                "check_response": false,
+                "correct_answers": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

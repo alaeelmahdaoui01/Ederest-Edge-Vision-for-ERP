@@ -1,0 +1,303 @@
+{
+  "title": "Créer article - Écran initial",
+  "platform": "SAP",
+  "language": "fr",
+  "formation_type": "TUTORIAL",
+  "difficulty": "beginner",
+  "total_step_count": 8,
+  "total_image_count": 8,
+  "collections": [
+    {
+      "collection_id": "collection_1",
+      "collection_type": "interactive",
+      "sequence": 0,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_0",
+          "sequence": 0,
+          "image": "b3_017_Création_CA_CallOff__image_2025-04-26_184900942_9bb8c6c2fc2d416b9f76e8060537eef5.png",
+          "instruction": "Cliquez sur Fournisseur:",
+          "screenshot_width": 1339,
+          "screenshot_height": 628,
+          "fields": [
+            {
+              "field_id": "step_0_field_0",
+              "name": "Fournisseur:",
+              "field_type": "text",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 66.39,
+                "y": 14.65,
+                "width": 20.84,
+                "height": 4.62,
+                "canvas_width": 1339,
+                "canvas_height": 628
+              },
+              "field_data": {
+                "description": "Fournisseur:",
+                "instruction": "Cliquez sur Fournisseur:",
+                "hint": null,
+                "check_response": true,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_1",
+          "sequence": 1,
+          "image": "b3_018_Création_CA_CallOff__image_2025-04-26_184931443_72dfc38283e04078ad23af43843bc801.png",
+          "instruction": "Cliquez sur Avenant:",
+          "screenshot_width": 1339,
+          "screenshot_height": 631,
+          "fields": [
+            {
+              "field_id": "step_1_field_0",
+              "name": "Avenant:",
+              "field_type": "text",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 41.6,
+                "y": 35.18,
+                "width": 3.96,
+                "height": 4.44,
+                "canvas_width": 1339,
+                "canvas_height": 631
+              },
+              "field_data": {
+                "description": "Avenant:",
+                "instruction": "Cliquez sur Avenant:",
+                "hint": null,
+                "check_response": true,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_2",
+          "sequence": 2,
+          "image": "b3_019_Création_CA_CallOff__image_2025-04-26_184954239_105a5f84736e4be4819404786a6152e3.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1320,
+          "screenshot_height": 625,
+          "fields": [
+            {
+              "field_id": "step_2_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 59.7,
+                "y": 88.64,
+                "width": 3.11,
+                "height": 4.16,
+                "canvas_width": 1320,
+                "canvas_height": 625
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_3",
+          "sequence": 3,
+          "image": "b3_020_Création_CA_CallOff__image_2025-04-26_185141797_c2a0ae049dbf40f1abaa1b6f62d78749.png",
+          "instruction": "Cliquez sur NB Cde Cn. standard",
+          "screenshot_width": 1334,
+          "screenshot_height": 629,
+          "fields": [
+            {
+              "field_id": "step_3_field_0",
+              "name": "NB Cde Cn. standard",
+              "field_type": "dropdown",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 29.84,
+                "y": 14.63,
+                "width": 15.74,
+                "height": 4.13,
+                "canvas_width": 1334,
+                "canvas_height": 629
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur NB Cde Cn. standard",
+                "hint": null,
+                "check_response": true,
+                "correct_answers": [
+                  "NB Cde Cn. standard"
+                ],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_4",
+          "sequence": 4,
+          "image": "b3_021_Création_CA_CallOff__image_2025-04-26_185203866_2704b448f71744518bdcdfd27b0ae11a.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1335,
+          "screenshot_height": 628,
+          "fields": [
+            {
+              "field_id": "step_4_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 38.95,
+                "y": 35.51,
+                "width": 1.72,
+                "height": 3.5,
+                "canvas_width": 1335,
+                "canvas_height": 628
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_5",
+          "sequence": 5,
+          "image": "b3_022_Création_CA_CallOff__image_2025-04-26_185247266_6faa3ddee46b49e1ba7dbe6e9a6fbfe8.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1336,
+          "screenshot_height": 628,
+          "fields": [
+            {
+              "field_id": "step_5_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 23.35,
+                "y": 24.36,
+                "width": 2.4,
+                "height": 4.46,
+                "canvas_width": 1336,
+                "canvas_height": 628
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_6",
+          "sequence": 6,
+          "image": "b3_023_Création_CA_CallOff__image_2025-04-26_185318169_ede54e8be7924f878b84c4ef3b67519a.png",
+          "instruction": "Cliquez sur Sauvegarder",
+          "screenshot_width": 1335,
+          "screenshot_height": 628,
+          "fields": [
+            {
+              "field_id": "step_6_field_0",
+              "name": "Sauvegarder",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 85.99,
+                "y": 96.34,
+                "width": 6.97,
+                "height": 3.5,
+                "canvas_width": 1335,
+                "canvas_height": 628
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur Sauvegarder",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [
+                  "Sauvegarder"
+                ],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_7",
+          "sequence": 7,
+          "image": "b4_050_Création_d_article_C_Article_7_FZE_Img_688662e8a49a40059761efe2b59f2a55.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 564,
+          "fields": [
+            {
+              "field_id": "step_7_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 72.89,
+                "y": 44.86,
+                "width": 1.64,
+                "height": 3.72,
+                "canvas_width": 1280,
+                "canvas_height": 564
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

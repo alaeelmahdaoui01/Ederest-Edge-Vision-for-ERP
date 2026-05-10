@@ -1,0 +1,146 @@
+[
+  {
+    "type": "popup",
+    "bbox": [
+      507,
+      261,
+      844,
+      416
+    ],
+    "confidence": 0.861,
+    "center": [
+      675,
+      338
+    ],
+    "label": "",
+    "value": "Affecter gamme PM Type de gamme: Accès direct Eamme PM: Interrompre"
+  },
+  {
+    "type": "textbox",
+    "bbox": [
+      673,
+      344,
+      790,
+      365
+    ],
+    "confidence": 0.861,
+    "center": [
+      731,
+      354
+    ],
+    "label": "Eamme PM:",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      726,
+      388,
+      752,
+      408
+    ],
+    "confidence": 0.855,
+    "center": [
+      739,
+      398
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      758,
+      388,
+      823,
+      406
+    ],
+    "confidence": 0.851,
+    "center": [
+      790,
+      397
+    ],
+    "label": "",
+    "value": "Interrompre"
+  },
+  {
+    "type": "dropdown",
+    "bbox": [
+      612,
+      309,
+      801,
+      329
+    ],
+    "confidence": 0.791,
+    "center": [
+      706,
+      319
+    ],
+    "label": "Type de gamme:",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      768,
+      344,
+      789,
+      364
+    ],
+    "confidence": 0.79,
+    "center": [
+      778,
+      354
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      789,
+      266,
+      809,
+      284
+    ],
+    "confidence": 0.766,
+    "center": [
+      799,
+      275
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      816,
+      266,
+      836,
+      284
+    ],
+    "confidence": 0.759,
+    "center": [
+      826,
+      275
+    ],
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "button",
+    "bbox": [
+      759,
+      344,
+      789,
+      364
+    ],
+    "confidence": 0.46,
+    "center": [
+      774,
+      354
+    ],
+    "label": "",
+    "value": ""
+  }
+]

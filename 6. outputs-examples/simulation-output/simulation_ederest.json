@@ -1,0 +1,159 @@
+{
+  "title": "Créer article - Écran initial",
+  "platform": "SAP",
+  "language": "fr",
+  "formation_type": "TUTORIAL",
+  "difficulty": "beginner",
+  "total_step_count": 4,
+  "total_image_count": 4,
+  "collections": [
+    {
+      "collection_id": "collection_1",
+      "collection_type": "interactive",
+      "sequence": 0,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_0",
+          "sequence": 0,
+          "image": "b4_044_Création_d_article_C_Article_28_FZE_Img2_533805c259574870921243884e20838a.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 570,
+          "fields": [
+            {
+              "field_id": "step_0_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 36.88,
+                "y": 19.12,
+                "width": 1.33,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_1",
+          "sequence": 1,
+          "image": "b4_045_Création_d_article_C_Article_2_FZE_Img2_e14a479c6db34e49a48b645be4b04cfe.png",
+          "instruction": "Cliquez sur Gestion emplacements magasin 1",
+          "screenshot_width": 1280,
+          "screenshot_height": 568,
+          "fields": [
+            {
+              "field_id": "step_1_field_0",
+              "name": "Gestion emplacements magasin 1",
+              "field_type": "checkbox",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 36.09,
+                "y": 21.13,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "Gestion emplacements magasin 1",
+                "instruction": "Cliquez sur Gestion emplacements magasin 1",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_2",
+          "sequence": 2,
+          "image": "b4_046_Création_d_article_C_Article_2_FZE_Img_20b99b9b6bff4d0f85923e6fa40e4731.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 536,
+          "fields": [
+            {
+              "field_id": "step_2_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 37.73,
+                "y": 93.47,
+                "width": 1.41,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        },
+        {
+          "image_id": "step_3",
+          "sequence": 3,
+          "image": "b4_047_Création_d_article_C_Article_3_FZE_Img_150ab1c955fe4d1c84923f3c93d2fa4b.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 572,
+          "fields": [
+            {
+              "field_id": "step_3_field_0",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "required": true,
+              "order": 0,
+              "colored": true,
+              "position": {
+                "x": 70.62,
+                "y": 69.58,
+                "width": 1.48,
+                "height": 2.97,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "hint": null,
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
