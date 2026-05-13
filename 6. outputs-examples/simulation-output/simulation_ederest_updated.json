@@ -1,0 +1,2099 @@
+{
+  "title": "Simulation SAP",
+  "platform": "SAP",
+  "language": "fr",
+  "formation_type": "TUTORIAL",
+  "difficulty": "beginner",
+  "total_step_count": 4,
+  "total_image_count": 4,
+  "collections": [
+    {
+      "collection_id": "collection_0",
+      "collection_type": "interactive",
+      "sequence": 0,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_0_click",
+          "sequence": 0,
+          "image": "b4_044_Création_d_article_C_Article_28_FZE_Img2_533805c259574870921243884e20838a.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 570,
+          "fields": [
+            {
+              "field_id": "step_0_field_0",
+              "name": "textbox",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.66,
+                "y": 70.7,
+                "width": 24.22,
+                "height": 3.16,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_1",
+              "name": "Terminer",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 94.69,
+                "y": 6.84,
+                "width": 4.06,
+                "height": 3.68,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_2",
+              "name": "Sunte",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 96.02,
+                "y": 95.96,
+                "width": 2.73,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_3",
+              "name": "Type jaruicle:",
+              "field_type": "dropdown",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.66,
+                "y": 27.72,
+                "width": 24.38,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Type jaruicle:",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_4",
+              "name": "Branche",
+              "field_type": "dropdown",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.58,
+                "y": 23.33,
+                "width": 24.61,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Branche",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_5",
+              "name": "Article:",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.42,
+                "y": 49.12,
+                "width": 24.45,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Article:",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_6",
+              "name": "textbox",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.5,
+                "y": 36.32,
+                "width": 7.66,
+                "height": 3.16,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_7",
+              "name": "Sélection des vues",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 2.27,
+                "y": 7.02,
+                "width": 7.58,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_8",
+              "name": "Bravo",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.5,
+                "y": 66.49,
+                "width": 6.41,
+                "height": 2.98,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Bravo",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_9",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 10.39,
+                "y": 6.84,
+                "width": 8.28,
+                "height": 3.68,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_10",
+              "name": "Données",
+              "field_type": "dropdown",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 23.59,
+                "y": 7.19,
+                "width": 3.2,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Données",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_11",
+              "name": "Données",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 19.22,
+                "y": 7.02,
+                "width": 3.83,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_12",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "colored": true,
+              "required": true,
+              "order": 0,
+              "position": {
+                "x": 36.88,
+                "y": 19.12,
+                "width": 1.33,
+                "height": 3.33,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_13",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 91.33,
+                "y": 0.7,
+                "width": 1.88,
+                "height": 3.86,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_14",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 2.5,
+                "y": 0.53,
+                "width": 1.8,
+                "height": 3.86,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_15",
+              "name": "Article;",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 12.66,
+                "y": 19.12,
+                "width": 24.38,
+                "height": 3.16,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "Article;",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_16",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 93.98,
+                "y": 0.7,
+                "width": 1.88,
+                "height": 3.86,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_0_field_17",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 96.64,
+                "y": 0.53,
+                "width": 1.95,
+                "height": 4.04,
+                "canvas_width": 1280,
+                "canvas_height": 570
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection_id": "collection_1",
+      "collection_type": "interactive",
+      "sequence": 1,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_1_click",
+          "sequence": 0,
+          "image": "b4_045_Création_d_article_C_Article_2_FZE_Img2_e14a479c6db34e49a48b645be4b04cfe.png",
+          "instruction": "Cliquez sur checkbox",
+          "screenshot_width": 1280,
+          "screenshot_height": 568,
+          "fields": [
+            {
+              "field_id": "step_1_field_0",
+              "name": "Sélection des vues Vue Gestion emplacements magasin 1 Gestion emplacements magasin  Monogement qualte Comptabilité Comptabilité exécution Données valorisation segment Select des vues uniquement sur demande CreervuesMarouees Niveaux organisation Données 8Paramétrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.08,
+                "y": 7.92,
+                "width": 31.87,
+                "height": 90.67,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_1",
+              "name": "Données",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 49.38,
+                "y": 93.49,
+                "width": 3.59,
+                "height": 2.46,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_2",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 55.7,
+                "y": 93.31,
+                "width": 1.41,
+                "height": 2.64,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_3",
+              "name": "8Paramétrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 57.89,
+                "y": 93.31,
+                "width": 6.17,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_4",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 53.67,
+                "y": 93.31,
+                "width": 1.41,
+                "height": 2.64,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_5",
+              "name": "Niveaux organisation",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 40.47,
+                "y": 93.31,
+                "width": 8.2,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_6",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 64.77,
+                "y": 93.31,
+                "width": 1.48,
+                "height": 2.82,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_7",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 31.34,
+                "width": 0.86,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_8",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.7,
+                "y": 85.92,
+                "width": 1.17,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_9",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 38.36,
+                "y": 93.31,
+                "width": 1.56,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_10",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 78.52,
+                "width": 1.09,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_11",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 65.23,
+                "y": 9.15,
+                "width": 1.48,
+                "height": 3.52,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_12",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 44.72,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_13",
+              "name": "Type daruicle ZEOP Aricle Equipement",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 27.99,
+                "width": 0.94,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "Type daruicle ZEOP Aricle Equipement",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_14",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 61.62,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_15",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 41.55,
+                "width": 1.02,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_16",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": true,
+              "colored": true,
+              "required": true,
+              "order": 0,
+              "position": {
+                "x": 36.09,
+                "y": 21.13,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur checkbox",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_17",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 65.14,
+                "width": 0.94,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_18",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 38.03,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_19",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 48.24,
+                "width": 0.94,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_20",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.78,
+                "y": 90.14,
+                "width": 1.09,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_21",
+              "name": "Incustnie chimique",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 24.82,
+                "width": 1.02,
+                "height": 1.94,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "Incustnie chimique",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_22",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 54.93,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_23",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 71.83,
+                "width": 1.02,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_24",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 68.13,
+                "width": 0.86,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_25",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 34.86,
+                "width": 0.94,
+                "height": 1.94,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_26",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 58.45,
+                "width": 1.02,
+                "height": 2.11,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_27",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.17,
+                "y": 51.23,
+                "width": 0.86,
+                "height": 2.46,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_1_field_28",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 36.09,
+                "y": 75.18,
+                "width": 1.02,
+                "height": 2.29,
+                "canvas_width": 1280,
+                "canvas_height": 568
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection_id": "collection_2",
+      "collection_type": "interactive",
+      "sequence": 2,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_2_click",
+          "sequence": 0,
+          "image": "b4_046_Création_d_article_C_Article_2_FZE_Img_20b99b9b6bff4d0f85923e6fa40e4731.png",
+          "instruction": "Cliquez sur Niveaux organisation",
+          "screenshot_width": 1280,
+          "screenshot_height": 536,
+          "fields": [
+            {
+              "field_id": "step_2_field_0",
+              "name": "Sélection des vues Vue Classification Donnees Qe base SPPetenques Achats Importations Texte de commande dachat Plenification des besoins Plenification des besoins Plenification des Plenification des besoins Plenification étendue Previsions Préparation du travail Données gén. divis {stockage Données gén. divis Istockage Gesuon emplacements magasin 1 Sélect Oes vues uniquement sur demande Creer vues Marouees Niveaux organisation Données Paramérrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 34.22,
+                "y": 3.17,
+                "width": 32.03,
+                "height": 94.4,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_1",
+              "name": "Niveaux organisation",
+              "field_type": "button",
+              "active": true,
+              "colored": true,
+              "required": true,
+              "order": 0,
+              "position": {
+                "x": 39.77,
+                "y": 93.28,
+                "width": 8.2,
+                "height": 3.17,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur Niveaux organisation",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_2",
+              "name": "Paramérrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 57.11,
+                "y": 93.1,
+                "width": 6.25,
+                "height": 3.17,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_3",
+              "name": "Données",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 48.59,
+                "y": 93.28,
+                "width": 3.75,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_4",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 52.97,
+                "y": 93.28,
+                "width": 1.25,
+                "height": 2.8,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_5",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 55.08,
+                "y": 93.28,
+                "width": 1.25,
+                "height": 2.8,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_6",
+              "name": "Type darticle: ZEOP Aricle Equipement",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 24.07,
+                "width": 0.86,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "Type darticle: ZEOP Aricle Equipement",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_7",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 63.25,
+                "width": 0.86,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_8",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 41.98,
+                "width": 0.86,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_9",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 59.89,
+                "width": 0.86,
+                "height": 1.87,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_10",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 27.43,
+                "width": 0.86,
+                "height": 2.24,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_11",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.39,
+                "y": 16.6,
+                "width": 1.02,
+                "height": 2.43,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_12",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 45.34,
+                "width": 0.86,
+                "height": 2.24,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_13",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.39,
+                "y": 77.61,
+                "width": 0.94,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_14",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.0,
+                "y": 85.45,
+                "width": 0.94,
+                "height": 2.43,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_15",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.39,
+                "y": 38.43,
+                "width": 0.94,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_16",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 34.89,
+                "width": 0.94,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_17",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 64.14,
+                "y": 93.1,
+                "width": 1.25,
+                "height": 2.99,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_18",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 56.34,
+                "width": 0.86,
+                "height": 1.87,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_19",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 31.16,
+                "width": 0.94,
+                "height": 2.43,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_20",
+              "name": "Constructions mécaniques",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.39,
+                "y": 20.52,
+                "width": 0.94,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "Constructions mécaniques",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_21",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 70.52,
+                "width": 0.94,
+                "height": 1.87,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_22",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 52.8,
+                "width": 0.94,
+                "height": 1.87,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_23",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 74.07,
+                "width": 0.94,
+                "height": 2.05,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_24",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 64.45,
+                "y": 4.1,
+                "width": 1.48,
+                "height": 3.54,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_25",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 49.07,
+                "width": 0.94,
+                "height": 2.43,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_26",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.0,
+                "y": 89.93,
+                "width": 0.94,
+                "height": 2.24,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_2_field_27",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 35.47,
+                "y": 66.98,
+                "width": 0.94,
+                "height": 2.43,
+                "canvas_width": 1280,
+                "canvas_height": 536
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection_id": "collection_3",
+      "collection_type": "interactive",
+      "sequence": 3,
+      "required": true,
+      "interactive_images": [
+        {
+          "image_id": "step_3_click",
+          "sequence": 0,
+          "image": "b4_047_Création_d_article_C_Article_3_FZE_Img_150ab1c955fe4d1c84923f3c93d2fa4b.png",
+          "instruction": "Cliquez sur button",
+          "screenshot_width": 1280,
+          "screenshot_height": 572,
+          "fields": [
+            {
+              "field_id": "step_3_field_0",
+              "name": "Nvx organisationnels Nvx organisationnels Division; emande Selection des vues Paramétrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 27.11,
+                "y": 33.22,
+                "width": 46.33,
+                "height": 40.73,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_1",
+              "name": "textbox",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 38.91,
+                "y": 49.48,
+                "width": 2.89,
+                "height": 3.32,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_2",
+              "name": "Division;",
+              "field_type": "text",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 38.98,
+                "y": 45.28,
+                "width": 2.73,
+                "height": 3.15,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "Division;",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_3",
+              "name": "Paramétrage",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 63.75,
+                "y": 69.41,
+                "width": 6.25,
+                "height": 3.32,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_4",
+              "name": "Selection des vues",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 55.7,
+                "y": 69.41,
+                "width": 7.27,
+                "height": 3.32,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_5",
+              "name": "button",
+              "field_type": "button",
+              "active": true,
+              "colored": true,
+              "required": true,
+              "order": 0,
+              "position": {
+                "x": 70.62,
+                "y": 69.58,
+                "width": 1.48,
+                "height": 2.97,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "Cliquez sur button",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_6",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 41.8,
+                "y": 45.1,
+                "width": 1.33,
+                "height": 3.32,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_7",
+              "name": "checkbox",
+              "field_type": "checkbox",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 38.83,
+                "y": 58.74,
+                "width": 0.94,
+                "height": 1.92,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            },
+            {
+              "field_id": "step_3_field_8",
+              "name": "button",
+              "field_type": "button",
+              "active": false,
+              "colored": false,
+              "required": true,
+              "order": 999,
+              "position": {
+                "x": 72.03,
+                "y": 33.57,
+                "width": 1.64,
+                "height": 3.32,
+                "canvas_width": 1280,
+                "canvas_height": 572
+              },
+              "field_data": {
+                "description": "",
+                "instruction": "",
+                "check_response": false,
+                "correct_answers": [],
+                "show_placeholder": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
